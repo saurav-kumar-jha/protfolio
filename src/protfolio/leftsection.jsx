@@ -12,7 +12,7 @@ export const Leftsection = (props) => {
                 <h1 className={`h-8 text-[20px] font-medium text-center`} >SAURAV KUMAR JHA</h1>
                 <div className="h-[200px] w-[80%] m-auto my-[10px]  "></div>
                 <div className="h-[40px] w-[80%] mx-auto my-[10px]  ">
-                    <a href="./assets/RESUME SKJ.docs" download="resume.pdf" ><button className="h-[44px] w-[auto] px-[6px] py-1 border rounded-[20px] bg-blue-600 border-transparent font-semibold text-xl hover:underline hover:scale-105 flex items-center justify-center" ><HiDocumentText/> Resume</button></a>
+                    <a href="./assets/RESUME SKJ.docs" download="resume.pdf" ><button className="h-[44px] w-[80%] px-[6px] py-1 border rounded-[20px] bg-blue-600 border-transparent font-semibold text-xl hover:underline hover:scale-105 flex items-center justify-center" ><HiDocumentText/> Resume</button></a>
                 </div>
                 <SocialMedia/>
             </main>
