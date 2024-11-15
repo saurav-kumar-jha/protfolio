@@ -8,6 +8,7 @@ import { Home } from "./protfolio/home";
 import { Addskill } from "./protfolio/addskill";
 import {Contact} from "./protfolio/contact"
 import { Project } from "./protfolio/Project/project";
+import { GetData } from "./protfolio/getData";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
     {
       path:"/project",
       element:<Project/>
+    },
+    {
+      path:"/admin/skj",
+      element:<GetData/>
     }
   ]
   }
