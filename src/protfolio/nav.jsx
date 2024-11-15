@@ -27,7 +27,7 @@ export const Nav = (props) => {
                         <NavLink to="/about" className="text-lg hover:text-[#6991db] hover:bg-zinc-600 cursor-pointer my-[20px] h-9 flex items-center justify-center text-center w-[100%] rounded font-semibold "><FaElementor /> ABOUT</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/project" className="text-lg hover:text-[#6991db] hover:bg-zinc-600 cursor-pointer my-[20px] h-9 flex items-center justify-center text-center w-[100%] rounded font-semibold "><FaElementor /> PROJECT</NavLink>
+                        <NavLink to="/admin/skj" className="text-lg hover:text-[#6991db] hover:bg-zinc-600 cursor-pointer my-[20px] h-9 flex items-center justify-center text-center w-[100%] rounded font-semibold "><FaElementor /> PROJECT</NavLink>
                     </li>
                     <li>
                         <NavLink to="/contact" className="text-lg hover:text-[#6991db] hover:bg-zinc-600 cursor-pointer my-[20px] h-9 flex items-center justify-center text-center w-[100%] rounded font-semibold "><GoProjectRoadmap /> CONTACT</NavLink>
