@@ -49,9 +49,11 @@ export const GetData = () => {
                     data.map((index)=>(
                         <li key={index.id} className="h-[auto] w-auto border rounded my-3 py-3 px-[10px] ">
                             <h2>Username:{index.name} </h2>
+                            <h2 className="text-red-900">Id: {index.id} </h2>
+                            <h2 className="text-green-900">Mobile No: {index.mob} </h2>
                             <h2 className="text-blue-800">Email: {index.email}</h2>
                             <h2 className="text-[#00ff9d] ">Msg: {index.message} </h2>
-                            <h2 className="text-red-900">Id: {index.id} </h2>
+                            
                             <button onClick={()=>handledelete(index.id)} className="h-[auto] w-[auto] px-[5px] py-[5px] border rounded-full bg-[red] flex justify-center items-center border-transparent hover:border-red-900 " ><FiDelete/> </button>
                         </li>
                     ))

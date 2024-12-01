@@ -9,6 +9,8 @@ import { Addskill } from "./protfolio/addskill";
 import {Contact} from "./protfolio/contact"
 import { Project } from "./protfolio/Project/project";
 import { GetData } from "./protfolio/getData";
+import { Show } from "./Trail/show";
+import QuizApp from "./Trail/chatgpt";
 
 const router = createBrowserRouter([
   {
@@ -51,6 +53,8 @@ function App() {
   return (
     <>
         <RouterProvider router={router} />
+        {/* <Show/> */}
+        {/* <QuizApp/> */}
     </>
   )
 }

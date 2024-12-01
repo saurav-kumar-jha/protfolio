@@ -12,11 +12,11 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 export const Trail = () => {
-    const [bg, setbg] = useState('night')
-    const [Class, setclass] = useState()
+    const [bg, setbg] = useState('day')
+    const [Class, setclass] = useState('night')
     const [bgclass, setbgclass] = useState()
     const handlebg = () => {
-        setbg(bg != 'day' ? 'day' : 'night')
+        setbg(bg == 'day' ? 'night' : 'day')
         setclass(bg)
         setbgclass(bg)
     }
