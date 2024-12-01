@@ -66,7 +66,7 @@ export const ContactForm = () => {
                         </div>
                         <div className={Css} >
                             <label htmlFor="mob">Mobile no:</label>
-                            <div className="flex h-auto text-[{Contextvalue==black?white:black}] overflow-y-scroll overflow-x-hidden border-transparent rounded px-[12px] hover:border-black border outline-none bg-[#ffffff1c]  ">
+                            <div className="flex h-auto text-[{Contextvalue==black?white:black}] overflow-y-scroll overflow-x-hidden border-transparent rounded pr-[12px] hover:border-black border outline-none bg-[#ffffff1c]  ">
                                 <p className="py-[5px] " >+91</p>
                                 <input className={`h-auto overflow-y-scroll overflow-x-hidden border-transparent  num px-[12px] border outline-none bg-transparent py-[5px] w-full `} type="mob" id="mob" name="mob" value={formInput.mob} onChange={handleFormInput} required />
                             </div>
