@@ -1,3 +1,6 @@
+import { useGSAP } from "@gsap/react"
+import gsap from "gsap"
+import { useRef } from "react"
 
 
 
@@ -24,9 +27,18 @@ export const Addskill = () => {
 }
 
 export const Skill = (props)=>{
+    const skillRef = useRef()
+    useGSAP(()=>{
+        gsap.from(skillRef.current,{
+            y:10,
+            duration:2,
+            opacity:0,
+            scale:0
+        })
+    })
     return (
         <>       
-            <img className="rounded-md cursor-pointer mx-2 my-1.5 h-[110px] w-[110px] object-contain border shadowcss " title={props.name} src={props.img} alt="" />
+            <img ref={skillRef} className="rounded-md cursor-pointer mx-2 my-1.5 h-[110px] w-[110px] object-contain border shadowcss " title={props.name} src={props.img} alt="" />
         </>
     )
 }

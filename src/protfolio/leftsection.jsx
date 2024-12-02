@@ -5,7 +5,7 @@ import { SocialMedia } from "./socialmedia"
 export const Leftsection = (props) => {
     return (
         <>
-            <main className="h-[480px] w-[15%] border rounded border-transparent mx-[10px] glassmor">
+            <main ref={props.refe} className="h-[480px] w-[15%] border rounded border-transparent mx-[10px] bg-[#00000023] backdrop-blur-md">
                 <div className="h-[114px] w-[110px] border border-[#44444400] mx-auto mt-[-20px] rounded object-cover ">
                     <img src="../profileimg.webp" alt="" className="rounded h-[114px] w-[110px] " />
                 </div>

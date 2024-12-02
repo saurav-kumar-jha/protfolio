@@ -4,25 +4,32 @@
 
 html{
     background-color: rgb(214, 220, 223);
+    overflow: hidden;
 }
+
 .day{
     background-image: url('./assets/white-bg.avif');
     color: black;
 }
 
 .night{
-    background-image: url('./assets/black-bg.avif');
+    background-image: url('https://img.freepik.com/free-vector/gradient-geometric-design-dark-background_23-2148425667.jpg?ga=GA1.1.1849991907.1733043705&semt=ais_hybrid');
     color: aliceblue;
+    object-fit: contain;
+    object-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .glassmor{
-    background: rgba(255, 255, 255, 0.055);
+    background: rgba(69, 71, 56, 0.192);
     box-shadow: 0 8px 32px 0 rgba(195, 197, 231, 0.37);
     backdrop-filter: blur( 2px );
     /* border-radius: 10px; */
 }
 .blurd{
-    background-color: rgba(255, 255, 255, 0.055);
-    box-shadow: 0 0 30px rgba(195, 197, 231, 0.37);
+    background-color: rgba(115, 139, 132, 0.192);
+    box-shadow: 0 0 100px rgba(184, 183, 127, 0.37);
 }
 ::-webkit-scrollbar{
     width: 2px;

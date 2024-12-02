@@ -10,7 +10,7 @@ import { NavLink } from 'react-router-dom'
 export const Nav = (props) => {
     return (
         <>
-            <nav className={`md:h-[480px] md:w-[20%] md:min-w-28 border h-[30px] w-[33px] flex justify-center items-center rounded border-transparent md:px-2 md:py-4 md:mx-3 md:mr-3 glassmor`}>
+            <nav ref={props.refe} className={`md:h-[480px] md:w-[20%] md:min-w-28 border h-[30px] w-[33px] flex justify-center items-center rounded border-transparent md:px-2 md:py-4 md:mx-3 md:mr-3 backdrop-blur-sm bg-[#00000018] `}>
                 <div className="block md:hidden">
                     <BiAlignJustify />
                 </div>

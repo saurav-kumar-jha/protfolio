@@ -3,10 +3,12 @@ import { useContext, useEffect, useState } from "react"
 import { Mycontext } from "./context"
 import { toast, ToastContainer } from "react-toastify"
 
-const API = "http://localhost:4321/api/user"
+const API = import.meta.env.VITE_API_URL
 
 export const ContactForm = () => {
 
+    console.log(API);
+    
     const Contextvalue = useContext(Mycontext)
     const [formInput, setformInput] = useState({ name: "", email: "", message: "", mob: "" })
     const [error, seterror] = useState(true)
